@@ -1,7 +1,9 @@
 # Testing Storage API on Microsoft Edge (Mac)
 
 ## Issue
-Clicking the 'Submit' button on the page should write `'key':'value'` into both localStorage and sessionStorage.
+Clicking the 'Submit' button on the page should write a key and value into both localStorage and sessionStorage.
+
+`App.js` contains two methods for writing to the Storage API: using an event handler and using the useEffect hook.
 
 * Works on Safari **Version 16.1 (18614.2.9.1.12)**
 * Works on Chrome **Version 110.0.5481.77 (Official Build) (x86_64)**
