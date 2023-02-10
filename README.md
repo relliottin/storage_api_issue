@@ -1,5 +1,15 @@
-# Getting Started with Create React App
+# Testing Storage API on Microsoft Edge (Mac)
 
+## Issue
+Clicking the 'Submit' button on the page should write `'key':'value'` into both localStorage and sessionStorage.
+
+* Works on Safari **Version 16.1 (18614.2.9.1.12)**
+* Works on Chrome **Version 110.0.5481.77 (Official Build) (x86_64)**
+* Fails on **Edge Version 110.0.1587.41 (Official build) (x86_64)**
+
+Mac OS is **13.0.1 (22A400)**
+
+## React
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
